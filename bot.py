@@ -34,7 +34,7 @@ def start(update: Update, context: CallbackContext):
             users[ref_by]["team"].append(uid)
         save_users()
 
-    bot_msg = f"""👋 नमस्कार *{user.first_name}*!
+    bot_msg = f"""👋 नमस्कार *{first_name}*!
 तुमचं स्वागत आहे "Task करा आणि पैसे कमवा 💰" बोटमध्ये.
 
 📲 तुमचा रेफरल कोड: `{uid}`
