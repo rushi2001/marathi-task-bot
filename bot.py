@@ -47,7 +47,7 @@ def start(update: Update, context: CallbackContext):
     update.message.reply_text(bot_msg, parse_mode='Markdown')
 
 def main():
-    TOKEN = "7860435614:AAEOSjPPlxSr2jMXHQ7hvhJd7WFHiNvL4sI"
+    TOKEN = "7860435614:AAFZnx6VpTdBk4FcO_RdIZ3_1oeczV3uCRw"
     updater = Updater(TOKEN, use_context=True)
     dp = updater.dispatcher
     dp.add_handler(CommandHandler("start", start))
